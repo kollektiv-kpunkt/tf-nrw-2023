@@ -1,0 +1,12 @@
+@import "fonts/fonts.scss";
+
+
+main a:not(.wp-block-button__link):not(:has(img))[target="_blank"] {
+    &::after {
+        font-family: "IcoFont";
+        content: "\ef1f";
+        display: inline-block;
+        margin-left: 0.2em;
+        font-size: 0.75em;
+    }
+}
